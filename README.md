@@ -2,8 +2,8 @@
 Sistemas embarcados, práticas de assemble
 1° Atividade
 
---> Marie.JS (print)
---> Como funciona a alocação de memória dinâmica para armazenar seu nome ?
+``--> Marie.JS (print)
+--> Como funciona a alocação de memória dinâmica para armazenar seu nome ?``
 
 # Explicação: 
 Este processo requer que você lide diretamente com as funções de baixo nível do sistema operacional, o que dá controle preciso sobre como a memória é utilizada, mas também implica uma responsabilidade maior para garantir que a memória seja gerenciada corretamente. Sem um gerenciamento apropriado, podem ocorrer problemas como vazamentos de memória, onde a memória não é liberada de volta ao sistema, ou corrupção de memória, onde dados inválidos podem ser escritos em locais não autorizados. Por isso, ao trabalhar com alocação dinâmica em assembly, é crucial entender exatamente como os diferentes comandos funcionam e como eles interagem com a arquitetura do sistema operacional específico que você está utilizando.
