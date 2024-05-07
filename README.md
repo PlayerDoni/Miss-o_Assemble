@@ -6,7 +6,9 @@ Sistemas embarcados, práticas de assemble
 --> Como funciona a alocação de memória dinâmica para armazenar seu nome ?``
 
 # Explicação: 
+<div align="justify">
 Este processo requer que você lide diretamente com as funções de baixo nível do sistema operacional, o que dá controle preciso sobre como a memória é utilizada, mas também implica uma responsabilidade maior para garantir que a memória seja gerenciada corretamente. Sem um gerenciamento apropriado, podem ocorrer problemas como vazamentos de memória, onde a memória não é liberada de volta ao sistema, ou corrupção de memória, onde dados inválidos podem ser escritos em locais não autorizados. Por isso, ao trabalhar com alocação dinâmica em assembly, é crucial entender exatamente como os diferentes comandos funcionam e como eles interagem com a arquitetura do sistema operacional específico que você está utilizando.
+</div>
 
 <img width="819" alt="image" src="https://github.com/PlayerDoni/Missao_Assembly/assets/125417940/3898df81-d284-4f7e-81a4-ab4ef061966e">
 
