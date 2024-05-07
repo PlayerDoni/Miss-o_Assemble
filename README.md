@@ -12,7 +12,7 @@ Este processo requer que você lide diretamente com as funções de baixo nível
 
 # cod:
 ORG 000 / Inicia o programa no endereço 000
-
+```Assembly
 Load D
 Store NAME_D /tag
 Load O
@@ -47,6 +47,7 @@ NAME_O2, HEX 0
 NAME_V, HEX 0
 NAME_A, HEX 0
 NAME_N2, HEX 0
+```
 
 
 # 2 - Explique DOS, masm e tasm em assembly:
